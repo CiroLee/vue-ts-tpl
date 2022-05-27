@@ -1,7 +1,7 @@
 <template>
   <div class="counter">
     <div class="counter__show">
-      <p class="counter__num" ref="numRef" :class="{ bounce: isAnimate }">{{ store.counter }}</p>
+      <p ref="numRef" class="counter__num" :class="{ bounce: isAnimate }">{{ store.counter }}</p>
     </div>
     <div class="counter__operate">
       <div class="counter__button--group">
@@ -38,7 +38,7 @@ const reset = () => {
   &__show {
     height: 300px;
     background: #304acd;
-    box-shadow: 0px 4px 16px 0px #6a80ef;
+    box-shadow: 0 4px 16px 0 #6a80ef;
     display: flex;
     align-items: center;
   }
@@ -50,6 +50,7 @@ const reset = () => {
     text-align: center;
   }
 }
+
 .btn {
   outline: 0;
   border: 1px solid rgb(49 74 204 / 30%);
@@ -63,11 +64,13 @@ const reset = () => {
     background: rgb(49 74 204 / 80%);
   }
 }
+
 .counter__operate {
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
+
 .counter__button--group {
   .btn {
     &:active {
@@ -90,14 +93,16 @@ const reset = () => {
     }
   }
 }
+
 .coutner__reset {
   margin-left: 10px;
 }
+
 .bounce {
-  animation: bounceAni 0.3s both;
+  animation: bounce-ani 0.3s both;
 }
 
-@keyframes bounceAni {
+@keyframes bounce-ani {
   from {
     transform: translateY(0);
   }

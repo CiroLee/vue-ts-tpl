@@ -5,7 +5,7 @@ module.exports = {
   rules: {
     // 兼容bem命名
     'selector-class-pattern': '^[-_a-zA-Z0-9]*$',
-    'color-function-notation': 'legacy',
+    'color-function-notation': 'modern',
     'string-quotes': 'single',
     'rule-empty-line-before': [
       'always',
