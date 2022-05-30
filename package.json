@@ -25,9 +25,6 @@
     "vue-router": "^4.0.15"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.2",
-    "@babel/preset-env": "^7.18.2",
-    "@babel/preset-typescript": "^7.17.12",
     "@commitlint/config-conventional": "^16.2.4",
     "@types/node": "^16.11.36",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
@@ -55,6 +52,7 @@
     "vite": "^2.9.9",
     "vue-tsc": "^0.31.4"
   },
+  "license": "MIT",
   "browserslist": [
     "last 2 versions",
     "> 1%",
