@@ -2,7 +2,7 @@
   <div class="home">
     <counter-animate />
     <div class="home__other">
-      <a href="https://github.com/CiroLee/mew-cli" target="_blank">more info about mew-cli</a>
+      <a href="https://github.com/CiroLee/vue-ts-tpl" target="_blank">more info about vue-ts-tpl</a>
     </div>
   </div>
 </template>
