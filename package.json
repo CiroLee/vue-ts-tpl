@@ -21,7 +21,7 @@
   "dependencies": {
     "pinia": "^2.0.22",
     "reset-css": "^5.0.1",
-    "vue": "^3.2.38",
+    "vue": "^3.2.39",
     "vue-router": "^4.1.5"
   },
   "devDependencies": {
